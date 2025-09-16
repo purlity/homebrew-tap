@@ -1,6 +1,7 @@
 class Rectiq < Formula
   desc "Rectiq CLI — secure, privacy-first API client"
   homepage "https://rectiq.dev"
+  license any_of: ["MIT", "Apache-2.0"]
   version "0.1.0" # auto-updated by CI
 
   on_macos do
